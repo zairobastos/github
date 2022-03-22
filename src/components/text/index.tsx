@@ -2,11 +2,10 @@ import {Text,TextP} from './styles';
 
 export interface Fonte{
     texto:string;
-    texto2:string;
-    children?:string;
+    texto2?:string;
 }
 
-function Texto({texto,texto2}:Fonte){
+function Texto({texto='',texto2=''}:Fonte){
     return (
         <>
             <Text>
