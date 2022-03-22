@@ -1,8 +1,9 @@
+import Texto from '../../components/text';
 import {TelaLogin} from './styles';
 function Login() {
     return(
         <TelaLogin>
-            Olá Mundo!
+            <Texto texto='Github User Finder' texto2="Veja informações de usuário e seus repositórios"/>
         </TelaLogin>
     )
 }
