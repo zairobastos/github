@@ -1,4 +1,4 @@
-import {Text,TextP} from './styles';
+import {Text,TextP,Container} from './styles';
 
 export interface Fonte{
     texto:string;
@@ -7,14 +7,14 @@ export interface Fonte{
 
 function Texto({texto='',texto2=''}:Fonte){
     return (
-        <>
+        <Container>
             <Text>
                 {texto}
             </Text>
             <TextP>
                 {texto2}
             </TextP>
-        </>
+        </Container>
     )
 }
 export default Texto;
