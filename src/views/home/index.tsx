@@ -1,8 +1,9 @@
+import Cabecalho from '../../components/header/';
 const Home = () => {
     return (
-        <h1>
-            HOME
-        </h1>
+        <>
+            <Cabecalho />
+        </>
     )
 }
 

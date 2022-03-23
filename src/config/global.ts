@@ -16,5 +16,8 @@ export const GlobalStyles = createGlobalStyle`
         --login-button: #F25D27;
         --login-button-font: #fff;
         --login-icone-fundo: #41414C;
+
+        --home-header: #41414C;
+        --home-header-font: #F0F2F5;
     }
 `;
