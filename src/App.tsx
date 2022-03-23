@@ -1,11 +1,8 @@
-import {GlobalStyles} from './config/global';
-
-import Login from './views/login';
+import Router from './router';
 function App() {
   return (
     <div className="App">
-      <GlobalStyles/>
-      <Login/>
+      <Router/>
     </div>
   );
 }
