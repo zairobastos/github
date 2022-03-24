@@ -8,7 +8,12 @@ const Perfil = ()=>{
             <div className="info-perfil">
                 <h1>Zairo Bastos</h1>
                 <h3>zairobastos</h3>
-                <p>Estudante de Ciência da Computação - UFC</p>
+                <p>Desenvolvedor Frontend</p>
+            </div>
+            <div className="dados">
+                <h2>44 <span>Repositórios</span> </h2>
+                <h2>0 <span>Projetos</span></h2>
+                <h2>9 <span>Stars</span></h2>
             </div>
         </PerfilCard>
     );

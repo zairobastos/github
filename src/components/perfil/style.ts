@@ -20,6 +20,7 @@ export const PerfilCard = styled.div`
   .info-perfil {
     margin-top: ${pixelToRem(40)};
     display: flex;
+    width: 90%;
     flex-direction: column;
     align-items: center;
     gap: ${pixelToRem(11)};
@@ -36,6 +37,43 @@ export const PerfilCard = styled.div`
       font-size: ${pixelToRem(20)};
       line-height: ${pixelToRem(23)};
       color: var(--home-perfil-h3);
+    }
+    p {
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: ${pixelToRem(20)};
+      line-height: ${pixelToRem(23)};
+      color: var(--home-perfil-p);
+      text-align: center;
+    }
+  }
+  .dados {
+    margin-top: ${pixelToRem(52)};
+    border-top: 1px solid #9c98a6;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: ${pixelToRem(29)};
+
+    h2 {
+      font-family: "Roboto";
+      font-weight: 700;
+      font-size: ${pixelToRem(36)};
+      line-height: ${pixelToRem(42)};
+      color: var(--home-perfil-h2);
+      display: flex;
+      flex-direction: column;
+      gap: ${pixelToRem(2)};
+      align-items: center;
+
+      span {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: ${pixelToRem(19)};
+        color: var(--home-perfil-span);
+      }
     }
   }
 `;
