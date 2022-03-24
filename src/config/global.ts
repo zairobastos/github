@@ -19,5 +19,10 @@ export const GlobalStyles = createGlobalStyle`
 
         --home-header: #41414C;
         --home-header-font: #F0F2F5;
+        --home-background:#F0F2F5;
+        --home-perfil: #FCFDFF;
+        --home-perfil-border: #E1E3E5;
+        --home-perfil-h1: #32264D;
+        --home-perfil-h3: #9c98a6;
     }
 `;
