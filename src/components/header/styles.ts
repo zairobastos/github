@@ -7,7 +7,7 @@ export const Cabecalho = styled.header`
   height: ${pixelToRem(88)};
   background-color: var(--home-header);
   align-items: center;
-  padding-left: ${pixelToRem(161)};
+  padding-left: ${pixelToRem(100)};
   gap: ${pixelToRem(370)};
 
   figure {

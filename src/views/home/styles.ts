@@ -12,6 +12,13 @@ export const Container = styled.main`
 export const Info = styled.section`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: ${pixelToRem(86)} 0 ${pixelToRem(95)} ${pixelToRem(160)};
+  justify-content: flex-start;
+  gap: ${pixelToRem(32)};
+  margin: ${pixelToRem(86)} 0 ${pixelToRem(95)} ${pixelToRem(100)};
+`;
+
+export const Dashborder = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 `;
