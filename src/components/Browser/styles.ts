@@ -78,5 +78,9 @@ export const Menu = styled.div`
     .bloco {
       border-radius: 0px 5px 5px 0px;
     }
+    img {
+      width: 15px;
+      height: 15px;
+    }
   }
 `;

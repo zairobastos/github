@@ -1,4 +1,5 @@
 import Browser from '../../components/Browser';
+import Dashboard from '../../components/Dashbord';
 import Cabecalho from '../../components/header/';
 import Perfil from '../../components/perfil';
 import { Container, Info, Dashborder } from './styles';
@@ -10,6 +11,7 @@ const Home = () => {
                 <Perfil/>
                 <Dashborder>
                     <Browser/>
+                    <Dashboard/>
                 </Dashborder>
             </Info>
         </Container>

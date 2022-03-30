@@ -27,5 +27,7 @@ export const GlobalStyles = createGlobalStyle`
         --home-perfil-p: #6A6180;
         --home-perfil-h2: #3d3d4d;
         --home-perfil-span: #6c6c80;
+
+        --home-card-background: #FCFDFF;
     }
 `;

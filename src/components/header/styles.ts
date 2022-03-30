@@ -15,6 +15,11 @@ export const Cabecalho = styled.header`
     align-items: center;
     gap: ${pixelToRem(24)};
 
+    img {
+      width: 67px;
+      height: 58.46px;
+    }
+
     h2 {
       color: var(--home-header-font);
       font-family: "Poppins";

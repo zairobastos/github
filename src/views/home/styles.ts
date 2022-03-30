@@ -20,5 +20,6 @@ export const Info = styled.section`
 export const Dashborder = styled.div`
   display: flex;
   flex-direction: column;
+  gap: ${pixelToRem(31)};
   width: 60%;
 `;
