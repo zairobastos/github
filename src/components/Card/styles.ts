@@ -4,9 +4,9 @@ import pixelToRem from "../../config/pxToRem";
 export const Cardi = styled.div`
   width: 31.2%;
   background-color: var(--home-card-background);
-  border: 1px solid var(--home-card-border);
+  border: ${pixelToRem(1)} solid var(--home-card-border);
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: ${pixelToRem(5)};
   height: ${pixelToRem(215)};
   margin-bottom: ${pixelToRem(20.08)};
   padding: 24.73px ${pixelToRem(21.67)} ${pixelToRem(23)} ${pixelToRem(12.71)};
@@ -22,16 +22,16 @@ export const Cardi = styled.div`
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: ${pixelToRem(14)};
+    line-height: ${pixelToRem(16)};
     color: var(--home-card-h2);
 
     span {
       font-family: "IBM Plex Sans";
       font-style: normal;
       font-weight: 600;
-      font-size: 16px;
-      line-height: 26px;
+      font-size: ${pixelToRem(16)};
+      line-height: ${pixelToRem(26)};
       color: var(--home-card-span);
     }
   }
@@ -40,8 +40,8 @@ export const Cardi = styled.div`
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: ${pixelToRem(14)};
+    line-height: ${pixelToRem(16)};
     color: var(--home-card-span);
     margin-top: ${pixelToRem(7.81)};
     margin-left: calc(${pixelToRem(34)} - ${pixelToRem(9)});
@@ -62,8 +62,8 @@ export const Cardi = styled.div`
         font-family: "Inter";
         font-style: normal;
         font-weight: 600;
-        font-size: 12px;
-        line-height: 22px;
+        font-size: ${pixelToRem(12)};
+        line-height: ${pixelToRem(22)};
         text-transform: uppercase;
         color: var(--home-card-span);
       }
@@ -72,18 +72,18 @@ export const Cardi = styled.div`
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        gap: 6px;
+        gap: ${pixelToRem(6)};
         img {
-          width: 15.23px;
-          height: 14.52px;
+          width: ${pixelToRem(15.23)};
+          height: ${pixelToRem(14.52)};
         }
 
         p {
           font-family: "Inter";
           font-style: normal;
           font-weight: 600;
-          font-size: 16px;
-          line-height: 26px;
+          font-size: ${pixelToRem(16)};
+          line-height: ${pixelToRem(26)};
           color: var(--home-card-span);
         }
       }
@@ -92,9 +92,9 @@ export const Cardi = styled.div`
       width: ${pixelToRem(40)};
       height: ${pixelToRem(40)};
       background: #fcfdff;
-      border: 2.5px solid #f47b50;
+      border: ${pixelToRem(2.5)} solid #f47b50;
       box-sizing: border-box;
-      border-radius: 5px;
+      border-radius: ${pixelToRem(5)};
     }
   }
 `;
