@@ -5,7 +5,7 @@ export const Inputi = styled.input`
   width: ${pixelToRem(352)};
   height: ${pixelToRem(72)};
   background: var(--login-background-input);
-  border: 1px solid var(--login-border-input);
+  border: ${pixelToRem(1)} solid var(--login-border-input);
   box-sizing: border-box;
   border-radius: 0.5rem;
   font-family: "Roboto", sans-serif;

@@ -7,7 +7,7 @@ export const PerfilCard = styled.div`
   width: ${pixelToRem(352)};
   height: ${pixelToRem(551)};
   background-color: var(--home-perfil);
-  border: 1px solid var(--home-perfil-border);
+  border: ${pixelToRem(1)} solid var(--home-perfil-border);
   border-radius: ${pixelToRem(5)};
   padding-top: ${pixelToRem(50)};
   align-items: center;
@@ -28,8 +28,8 @@ export const PerfilCard = styled.div`
       font-family: "IBM Plex Sans", sans-serif;
       color: var(--home-perfil-h1);
       font-weight: 600;
-      font-size: 28px;
-      line-height: 30px;
+      font-size: ${pixelToRem(28)};
+      line-height: ${pixelToRem(30)};
     }
     h3 {
       font-family: "Roboto", sans-serif;
@@ -49,7 +49,7 @@ export const PerfilCard = styled.div`
   }
   .dados {
     margin-top: ${pixelToRem(52)};
-    border-top: 1px solid #9c98a6;
+    border-top: ${pixelToRem(1)} solid #9c98a6;
     width: 80%;
     display: flex;
     flex-direction: row;

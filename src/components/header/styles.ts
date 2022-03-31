@@ -16,8 +16,8 @@ export const Cabecalho = styled.header`
     gap: ${pixelToRem(24)};
 
     img {
-      width: 67px;
-      height: 58.46px;
+      width: ${pixelToRem(67)};
+      height: ${pixelToRem(58.46)};
     }
 
     h2 {
