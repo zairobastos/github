@@ -29,5 +29,8 @@ export const GlobalStyles = createGlobalStyle`
         --home-perfil-span: #6c6c80;
 
         --home-card-background: #FCFDFF;
+        --home-card-border: #e1e3e6;
+        --home-card-span: #9c98a6;
+        --home-card-h2: #32264d;
     }
 `;

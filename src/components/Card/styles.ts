@@ -4,7 +4,7 @@ import pixelToRem from "../../config/pxToRem";
 export const Cardi = styled.div`
   width: 31.2%;
   background-color: var(--home-card-background);
-  border: 1px solid #e1e3e6;
+  border: 1px solid var(--home-card-border);
   box-sizing: border-box;
   border-radius: 5px;
   height: ${pixelToRem(215)};
@@ -24,7 +24,7 @@ export const Cardi = styled.div`
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    color: #32264d;
+    color: var(--home-card-h2);
 
     span {
       font-family: "IBM Plex Sans";
@@ -32,7 +32,7 @@ export const Cardi = styled.div`
       font-weight: 600;
       font-size: 16px;
       line-height: 26px;
-      color: #9c98a6;
+      color: var(--home-card-span);
     }
   }
 
@@ -42,7 +42,7 @@ export const Cardi = styled.div`
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #9c98a6;
+    color: var(--home-card-span);
     margin-top: ${pixelToRem(7.81)};
     margin-left: calc(${pixelToRem(34)} - ${pixelToRem(9)});
   }
@@ -65,7 +65,7 @@ export const Cardi = styled.div`
         font-size: 12px;
         line-height: 22px;
         text-transform: uppercase;
-        color: #9c98a6;
+        color: var(--home-card-span);
       }
 
       figure {
@@ -84,7 +84,7 @@ export const Cardi = styled.div`
           font-weight: 600;
           font-size: 16px;
           line-height: 26px;
-          color: #9c98a6;
+          color: var(--home-card-span);
         }
       }
     }
