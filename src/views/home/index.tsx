@@ -8,7 +8,7 @@ const Home = () => {
         <Container>
             <Cabecalho />
             <Info>
-                <Perfil/>
+                <Perfil nome="Zairo Bastos" nome_user='zairobastos' bio='Desenvolvedor Frontend' project={0} repo={44} stars={9}/>
                 <Dashborder>
                     <Browser/>
                     <Dashboard/>
