@@ -4,11 +4,12 @@ import { useState } from 'react';
 export interface Dados{
     tipo: string;
     placeholder: string;
+    valor: string;
 }
 
-function Input({tipo='', placeholder=''}:Dados) {
+function Input({tipo='', placeholder='', valor=''}:Dados) {
 
-    const [userName, setUserName] = useState('');
+    const [userName, setUserName] = useState(valor);
     return(
         <Form>
             <Inputi type={tipo} placeholder={placeholder} value={userName} onChange={e => setUserName(e.target.value)}/>
